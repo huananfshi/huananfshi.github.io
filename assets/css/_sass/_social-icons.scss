@@ -52,7 +52,7 @@ $rss-color: #ff6600;
   @include social-media-icon($facebook-color, $icon-transition-time);
 }
 
-.fa-google-plus {
+.fa-google {
   padding: 5px;
   @include social-media-icon($google-color, $icon-transition-time);
 }
