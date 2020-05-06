@@ -27,19 +27,8 @@
 .featured-posts h1 {
   margin: 10px;
 }
-.table {
-    border-collapse: collapse;
-}
 
-.td {
-    border: none;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 /*
   Pagination
 */
