@@ -40,7 +40,14 @@
 .right {
   width: 70%;
 }
+.table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
 
+.td {
+    border: none;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
