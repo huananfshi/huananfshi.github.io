@@ -19,19 +19,7 @@
 .posts-wrapper h1 {
   margin: 20px 0px 5px;
 }
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
 
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
 @media (max-width: $container-width) {
   .container {
     width: 95vw;
@@ -45,6 +33,4 @@
     width: 95vw;
   }
 }
-.column {
-  width: 100%;
-}
+
