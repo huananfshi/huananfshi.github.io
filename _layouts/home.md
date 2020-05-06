@@ -3,4 +3,4 @@ layout: default
 title: Home
 ---
 
-Hi, I'm Huanan Shi.I am currently a PhD candidate in Molecular Physiology and Biophysics at Baylor College of Medicine. My dissertation work in Dr. David Durgan lab focuses on understanding mechanisms how gut microbiota affects blood pressure in hypertensive rat models. My research interests including using multi-omics approaches and machine-learning algorithm to process physiological information.
+Hi, I'm Huanan Shi. I am currently a PhD candidate in Molecular Physiology and Biophysics at Baylor College of Medicine. My dissertation work in Dr. David Durgan lab focuses on understanding mechanisms how gut microbiota affects blood pressure in hypertensive rat models. My research interests including using multi-omics approaches and machine-learning algorithm to process physiological information.
