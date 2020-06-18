@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "A 16s microbiome analysis workflow"
-description: "An example to analyze 16s microbiome sequences for taxonomy and functional prediction. From raw fastq files to taxonomic information
-        and functional prediction using QIIM2, DADA2, PICRUSt2, ALDEx2, vegan... "
 author: "Huanan Shi"
 categories: bioinformatics
 tags: [workflows]
