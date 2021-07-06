@@ -7,7 +7,7 @@ disqus:
 
 menu:
 - {name: 'Bioinformatics', file: 'bioinformatics.html'}
-- {name: 'Opinions', file: 'Opinions.html'}
+- {name: 'Opinion', file: 'Opinion.html'}
 - {name: 'CV', file: 'CV.pdf'}
 #- {name: 'Contact', folder: 'pages', file: 'contact.html'}
 social:
