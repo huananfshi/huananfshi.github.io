@@ -6,7 +6,8 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 
 menu:
-- {name: 'Research', file: 'research.html'}
+- {name: 'Bioinformatics', file: 'bioinformatics.html'}
+- {name: 'Opinions', file: 'Opinions.html'}
 - {name: 'CV', file: 'CV.pdf'}
 #- {name: 'Contact', folder: 'pages', file: 'contact.html'}
 social:
