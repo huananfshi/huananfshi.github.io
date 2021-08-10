@@ -32,7 +32,7 @@ tags: [workflows]
   * demultiplexing sequences using qiime2 (this step takes time)
     ```
     qiime tools import \
-    --type EMPPairedEnd Sequences \
+    --type EMPPairedEndSequences \
     --input-path ~/.../ \
     --output-path ~/.../xx.qza
     qiime demux emp-paired \
