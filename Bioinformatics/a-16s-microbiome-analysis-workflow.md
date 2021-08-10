@@ -36,7 +36,7 @@ tags: [workflows]
     --input-path ~/.../ \
     --output-path ~/.../xx.qza
     qiime demux emp-paired \
-    --i-seqs paired_CA.qza \
+    --i-seqs xx.qza \
     --m-barcodes-file barcodes.txt \
     --m-barcodes-column BarcodeSequence \
     --o-per-sample-sequences demux.qza \
