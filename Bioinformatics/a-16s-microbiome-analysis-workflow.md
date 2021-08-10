@@ -31,7 +31,7 @@ tags: [workflows]
     ```
   * demultiplexing sequences using qiime2 (this step takes time)
     ```
-    qiime tools input \
+    qiime tools import \
     --type EMPPairedEnd Sequences \
     --input-path ~/.../ \
     --output-path ~/.../xx.qza
