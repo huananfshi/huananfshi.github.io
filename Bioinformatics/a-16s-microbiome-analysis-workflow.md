@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "A 16s microbiome analysis workflow"
+title: "16s Microbiome Analysis Workflow (CLT with ALDEx2) "
 author: "Huanan Shi"
 categories: bioinformatics
 tags: [workflows]
 ---
-# [A 16s Microbiome Analysis Workflow](https://github.com/huananfshi/16s_microbiome_analysis_workflow)
+# [16s Microbiome Analysis Workflow (CLT with ALDEx2)](https://github.com/huananfshi/16s_microbiome_analysis_workflow)
 ### An example to analyze 16s microbiome sequences for taxonomy and functional prediction.
 **This is a tutorial to analyze 16s microbiome data from raw sequences.** (See my [other repository](https://github.com/huananfshi/microbiome_multiomics_analysis_workflow) for analysis of whole genome shotgun sequencing) **Here I used centered log-ratio transformation methods and Aitchison distance instead of tranditional rarefaction cutoff and unifrac/bray-curtis dissimilarity.** (See [Gloor *et al.*](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full) for more information.)<br />
 **If you are reading this, I assume that you have some basic understanding of using Python, R, and Shell. If you want to know more about packages I used here, please go to their websites. Some codes can be simplified. There are several repeated steps that can be combined if run this workflow in order.**(i.e. use `asv_taxa.biom` as input to PICRUSt2 might generate stratified gene tables with taxonomic annotations.) <br />
@@ -60,7 +60,7 @@ tags: [workflows]
     ```
       * group ASVs by identical taxonomic annotation: [asv_processing.ipynb](asv_processing.ipynb)
     * [taxonomy_analysis.R](taxonomy_analysis.R)
-  * functional analysis using `PICRUSt2`. make sure `PICRUSt2` and `HUMAnN2` is in the current environment
+  * functional analysis using `PICRUSt2`. make sure `PICRUSt2` and `HUMAnN` is in the current environment (This is developed under previous version of PICRUSt2. Commands and outputs might be slightly different in newer versions. Check PICRUSt2 manual for detailed usage.)
     ```
     #picrust2_pipeline.py -h for help
     # --stratified give out stratified results
